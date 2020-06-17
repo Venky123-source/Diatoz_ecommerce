@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Diatoz ecommerce application">
+
+	<listeners>
+		<listener
+			class-name="dia.qa.ecom.ExtentReport.ExtentReportNG"></listener>
+	</listeners>
+
+
+
+
+	<test name="ecommerce">
+		<classes>
+
+			<class name="dia.qa.ecom.testcases.LoginPageTest"></class>
+			<class name="dia.qa.ecom.testcases.HomePageTest"></class>
+			<class name="dia.qa.ecom.testcases.FeaturedCollectionTest"></class>
+
+		</classes>
+	</test>
+</suite>

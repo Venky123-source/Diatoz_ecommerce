@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Diatoz ecommerce application]">
+  <listeners>
+    <listener class-name="dia.qa.ecom.ExtentReport.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="ecommerce(failed)">
+    <classes>
+      <class name="dia.qa.ecom.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="validatelogo"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- dia.qa.ecom.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- ecommerce(failed) -->
+</suite> <!-- Failed suite [Diatoz ecommerce application] -->
